@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.arthadi.loginandregist.HomeActivity" >
+
+
+    <!--<android.support.design.widget.TabLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:clickable="true"-->
+    <!--android:id="@+id/tablayout2"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--app:tabIndicatorColor="@color/tabIndicators">-->
+
+    <!--<android.support.design.widget.TabItem-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="Trans" />-->
+    <!--<android.support.design.widget.TabItem-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="Statistic"/>-->
+    <!--<android.support.design.widget.TabItem-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="Account"/>-->
+    <!--<android.support.design.widget.TabItem-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="Setting"/>-->
+    <!--</android.support.design.widget.TabLayout>-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs1"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        app:tabIndicatorColor="@color/tabIndicators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabGravity="fill">
+    </android.support.design.widget.TabLayout>
+
+    <com.example.arthadi.loginandregist.CustomViewPager
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/pager3"
+        android:layout_below="@id/tabs1">
+    </com.example.arthadi.loginandregist.CustomViewPager>
+
+</RelativeLayout>

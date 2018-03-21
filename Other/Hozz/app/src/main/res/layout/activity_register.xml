@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fork">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="150dp"
+            android:paddingLeft="45dp"
+            >
+
+
+            <!--<ImageView-->
+                <!--android:layout_width="30sp"-->
+                <!--android:layout_height="60sp"-->
+                <!--android:src="@drawable/user"-->
+                <!--/>-->
+
+            <EditText
+                android:layout_width="240sp"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:paddingTop="20dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="16dp"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:paddingLeft="52dp"-->
+            <!--&gt;-->
+
+
+            <!--<ImageView-->
+                <!--android:layout_width="15sp"-->
+                <!--android:layout_height="35sp"-->
+                <!--android:src="@drawable/phone"-->
+                <!--/>-->
+
+            <!--<EditText-->
+                <!--android:layout_width="55sp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingTop="0dp"-->
+                <!--android:inputType="none"-->
+                <!--android:text="+62"-->
+                <!--android:enabled="false"-->
+                <!--android:textSize="16dp"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:paddingLeft="15dp"-->
+                <!--/>-->
+
+            <!--<EditText-->
+                <!--android:layout_width="193sp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingTop="0dp"-->
+                <!--android:hint="Phone (812xxxxx)"-->
+                <!--android:textSize="16dp"-->
+                <!--android:textColorHint="#ffffff"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:paddingLeft="16dp"-->
+                <!--android:inputType="number"-->
+
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingTop="18dp"-->
+            <!--android:paddingLeft="52dp"-->
+            <!--&gt;-->
+
+
+            <!--<ImageView-->
+                <!--android:layout_width="17sp"-->
+                <!--android:layout_height="40sp"-->
+                <!--android:src="@drawable/email"-->
+                <!--/>-->
+
+            <!--<EditText-->
+                <!--android:paddingLeft="18dp"-->
+                <!--android:layout_width="250sp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contextClickable="false"-->
+                <!--android:hint="Email"-->
+                <!--android:paddingTop="7dp"-->
+                <!--android:singleLine="false"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textColorHint="#ffffff"-->
+                <!--android:textSize="16dp"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingLeft="55dp"-->
+            <!--&gt;-->
+
+            <!--<Button-->
+                <!--android:layout_width="267dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:id="@+id/btn_register"-->
+                <!--android:text="Register"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:background="#d67777"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="By registering I agree to the "-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="10dp"-->
+            <!--android:textStyle="bold"/>-->
+        <!--<TextView-->
+            <!--android:paddingTop="3dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Terms of Services and Privacy Policy"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="10dp"/>-->
+
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingTop="20dp"-->
+            <!--android:paddingLeft="65dp"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:layout_width="180dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Already have an acoount?"-->
+                <!--android:textColor="#f29e9e"/>-->
+
+
+            <!--<Button-->
+
+                <!--android:id="@+id/btn_login"-->
+                <!--android:layout_width="70dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:background="#5e2b2b"-->
+                <!--android:text="Login"-->
+                <!--android:textColor="#ffffff"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

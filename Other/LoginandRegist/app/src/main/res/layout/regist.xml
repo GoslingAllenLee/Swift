@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arthadi.loginandregist.LoginActivity">
+    <RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:id="@+id/linear_regist_email"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:background="@color/merahmaroon"
+        android:layout_margin="10px">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_Email"
+            android:hint="E-mail"
+            android:textColorHint="@color/textColorPrimary"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/textColorPrimary"
+            android:background="@color/merahmaroon"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:id="@+id/linear_regist_pwd"
+        android:layout_below="@id/linear_regist_email"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:background="@color/merahmaroon"
+        android:layout_margin="10px">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_pwd"
+            android:hint="Password"
+            android:textColorHint="@color/textColorPrimary"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/textColorPrimary"
+            android:background="@color/merahmaroon"
+            android:layout_marginTop="10dp"
+            android:password="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:id="@+id/linear_regist_Cpwd"
+        android:layout_below="@id/linear_regist_pwd"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:background="@color/merahmaroon"
+        android:layout_margin="10px">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_Cpwd"
+            android:hint="Confirm Password"
+            android:textColorHint="@color/textColorPrimary"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/textColorPrimary"
+            android:background="@color/merahmaroon"
+            android:layout_marginTop="10dp"
+            android:password="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:id="@+id/linear_regist_name"
+        android:layout_below="@id/linear_regist_Cpwd"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:background="@color/merahmaroon"
+        android:layout_margin="10px">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_Name"
+            android:hint="Name"
+            android:textColorHint="@color/textColorPrimary"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/textColorPrimary"
+            android:background="@color/merahmaroon"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/linear_regist_name"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:background="@color/merahmaroon"
+        android:layout_margin="10px"
+        android:id="@+id/linear_dob">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Select Date Of Birth"
+            android:id="@+id/dob"
+            android:textColorHint="@color/textColorPrimary"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/textColorPrimary"
+            android:background="@color/merahmaroon"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/btn_submit"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_dob"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textColor="@color/textColorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

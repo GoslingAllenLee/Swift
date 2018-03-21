@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.arthadi.loginandregist.fragments.StatisticFragment">
+
+    <Spinner
+        android:id="@+id/spinner_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:entries="@array/charts">
+
+    </Spinner>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/Piechart"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1">
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.1"
+        android:scrollbars="vertical" />
+
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0.6"></ListView>-->
+
+</LinearLayout>

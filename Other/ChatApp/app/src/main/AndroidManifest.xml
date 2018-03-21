@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="wartaonline.chat.chatapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    //baca galery foto
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Warta Online"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="wartaonline.chat.chatapp.users.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="wartaonline.chat.chatapp.MainActivity" />
+        <activity android:name="wartaonline.chat.chatapp.WorldDetailPostActivity" />
+        <activity android:name="wartaonline.chat.chatapp.CommentThreadActivity" />
+        <activity android:name="wartaonline.chat.chatapp.CommentWeeklyActivity" />
+        <activity android:name="wartaonline.chat.chatapp.users.RegisterActivity" />
+        <activity android:name="wartaonline.chat.chatapp.ChatGroupActivity" />
+        <activity android:name="wartaonline.chat.chatapp.ProfileActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name="wartaonline.chat.chatapp.GroupDetailActivity" />
+        <activity android:name="wartaonline.chat.chatapp.ChatActivity" />
+
+        <!-- Firebase notif -->
+        <service android:name="wartaonline.chat.chatapp.services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="wartaonline.chat.chatapp.services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- Firebase notif -->
+        <!--<activity android:name=".fragments.WorldFragment" />-->
+        <activity android:name="wartaonline.chat.chatapp.AddPostActivity" />
+       <activity android:name="wartaonline.chat.chatapp.ItemActivity" />
+        <activity android:name="wartaonline.chat.chatapp.AddItemActivity" />
+        <activity android:name="wartaonline.chat.chatapp.AddWeeklyActivity" />
+        <activity android:name="wartaonline.chat.chatapp.AddThreadActivity"></activity>
+    </application>
+
+</manifest>

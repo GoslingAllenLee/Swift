@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/bgLoginSetting">
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:gravity="left|center"
+            android:background="#f2f2f2"
+            android:textColor="#7f7f7f"
+            android:drawableBottom="@android:color/black"
+            android:id="@+id/txtTheme" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical"
+            android:background="#d9d9d9"
+            android:id="@+id/linearTheme"
+            android:animateLayoutChanges="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="************" />-->
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/btn_changepassword"
+                    android:text="Change password"
+                    android:layout_marginTop="0dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:gravity="left|center"
+            android:background="#f2f2f2"
+            android:textColor="#7f7f7f"
+            android:id="@+id/txtFont" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical"
+            android:background="#d9d9d9"
+            android:animateLayoutChanges="true"
+            android:id="@+id/linearFont" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/btn_notification"
+                    android:text="Notification for read (5)"
+                    android:layout_marginTop="0dp"/>
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="Notification for read (5)" />-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Divider Session -->
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:gravity="left|center"
+            android:background="#f2f2f2"
+            android:textColor="#7f7f7f"
+            android:id="@+id/txtSession" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:orientation="vertical"
+            android:background="#d9d9d9"
+            android:animateLayoutChanges="true"
+            android:id="@+id/linearSession">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/btn_logout"
+                android:text="LOG OUT"
+                android:layout_marginTop="0dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

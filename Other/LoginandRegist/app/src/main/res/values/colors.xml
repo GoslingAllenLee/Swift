@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f7c25a</color>
+    <color name="colorPrimaryDark">#e5bc66</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="tabIndicators">#303F9F</color>
+    <color name="tabIndicators2">#31d16e</color>
+    <color name="merahmaroon">#dd3a3a</color>
+    <color name="Yellow">#ffd501</color>
+    <color name="black">#000000</color>
+    <color name="freshblue">#06ddf1</color>
+    <color name="transparent_white">#6bf1c8c8</color>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+
+</resources>
